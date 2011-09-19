@@ -1,0 +1,12 @@
+﻿@{
+	ViewBag.Title = "title";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Deployment successful</h2>
+
+<h3>StdOut</h3>
+<p>@Html.Encode(ViewBag.StdOut)</p>
+
+<h3>StdErr</h3>
+<p>@Html.Encode(@ViewBag.StdErr)</p>

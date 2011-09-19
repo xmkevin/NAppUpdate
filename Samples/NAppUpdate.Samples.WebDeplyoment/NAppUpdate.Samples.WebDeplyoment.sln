@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAppUpdate.Samples.WebDeplyoment", "NAppUpdate.Samples.WebDeplyoment\NAppUpdate.Samples.WebDeplyoment.csproj", "{18839951-ADB9-49B4-B036-6A3E4072E33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAppUpdate.Framework", "..\..\src\NAppUpdate.Framework\NAppUpdate.Framework.csproj", "{5C07EBDF-D43F-4BE9-B560-D7A443C0EDCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18839951-ADB9-49B4-B036-6A3E4072E33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18839951-ADB9-49B4-B036-6A3E4072E33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18839951-ADB9-49B4-B036-6A3E4072E33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18839951-ADB9-49B4-B036-6A3E4072E33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C07EBDF-D43F-4BE9-B560-D7A443C0EDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C07EBDF-D43F-4BE9-B560-D7A443C0EDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C07EBDF-D43F-4BE9-B560-D7A443C0EDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C07EBDF-D43F-4BE9-B560-D7A443C0EDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
